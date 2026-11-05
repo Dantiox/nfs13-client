@@ -1,0 +1,195 @@
+{
+ "name": "nfs13",
+ "description": "Transport configuration offsets enabling local loopback communication and standalone profile persistence for interoperability.",
+ "file": "NFS13.exe",
+ "size": 13672448,
+ "base_sha256": "9571280bb8868cd254e95442181d7bf1d6eafb2156a95d0c38337c7470762c0f",
+ "patched_sha256": "d54e47f2528af93d136ec9cb4bf66a5f3910e4833222cc877046abc1636690e2",
+ "patches": [
+  {
+   "offset": "0x200",
+   "original": "810e",
+   "patched": "0010"
+  },
+  {
+   "offset": "0x217",
+   "original": "60",
+   "patched": "e0"
+  },
+  {
+   "offset": "0x682e87",
+   "original": "0b75",
+   "patched": "0a72"
+  },
+  {
+   "offset": "0x791f4c",
+   "original": "8b4dfc85c975478b45088d8fac0b0000",
+   "patched": "b8150000005e5b5f8be55dc390909090"
+  },
+  {
+   "offset": "0x89fb18",
+   "original": "309fc9",
+   "patched": "811ef8"
+  },
+  {
+   "offset": "0x8a34f5",
+   "original": "0f8d85",
+   "patched": "e98600"
+  },
+  {
+   "offset": "0x8a34fa",
+   "original": "00",
+   "patched": "90"
+  },
+  {
+   "offset": "0x8a364f",
+   "original": "d099c9",
+   "patched": "101ff8"
+  },
+  {
+   "offset": "0x8a3680",
+   "original": "558bec83ec3053568bf18b46",
+   "patched": "ff742404e847feffffc20800"
+  },
+  {
+   "offset": "0xb81e81",
+   "original": "0000000000000000000000",
+   "patched": "8b4424048b108915801ff8"
+  },
+  {
+   "offset": "0xb81e8d",
+   "original": "0000000000000000",
+   "patched": "8b50048915841ff8"
+  },
+  {
+   "offset": "0xb81e96",
+   "original": "0000000000000000",
+   "patched": "8b50088915881ff8"
+  },
+  {
+   "offset": "0xb81e9f",
+   "original": "0000000000000000",
+   "patched": "8b500c89158c1ff8"
+  },
+  {
+   "offset": "0xb81ea8",
+   "original": "0000000000",
+   "patched": "c705901ff8"
+  },
+  {
+   "offset": "0xb81eae",
+   "original": "000000",
+   "patched": "801ff8"
+  },
+  {
+   "offset": "0xb81eb2",
+   "original": "0000000000000000",
+   "patched": "8b442408a3941ff8"
+  },
+  {
+   "offset": "0xb81ebb",
+   "original": "0000000000000000",
+   "patched": "8b44240ca3981ff8"
+  },
+  {
+   "offset": "0xb81ec4",
+   "original": "0000000000000000",
+   "patched": "8b442410a39c1ff8"
+  },
+  {
+   "offset": "0xb81ecd",
+   "original": "0000000000000000",
+   "patched": "8b442414a3a01ff8"
+  },
+  {
+   "offset": "0xb81ed6",
+   "original": "0000000000000000",
+   "patched": "8b442418a3a41ff8"
+  },
+  {
+   "offset": "0xb81edf",
+   "original": "0000000000000000",
+   "patched": "8b44241ca3a81ff8"
+  },
+  {
+   "offset": "0xb81ee8",
+   "original": "0000000000000000",
+   "patched": "8b442420a3ac1ff8"
+  },
+  {
+   "offset": "0xb81ef1",
+   "original": "0000000000000000",
+   "patched": "8b442424a3b01ff8"
+  },
+  {
+   "offset": "0xb81efa",
+   "original": "0000",
+   "patched": "e9c1"
+  },
+  {
+   "offset": "0xb81eff",
+   "original": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "patched": "9090909090909090909090909090909090ff742410ff742410ff742410ff742410e8ab7ad1ff83c41060a158db0e018b40048db83c5a"
+  },
+  {
+   "offset": "0xb81f37",
+   "original": "00000000",
+   "patched": "be601ff8"
+  },
+  {
+   "offset": "0xb81f3c",
+   "original": "0000",
+   "patched": "b91b"
+  },
+  {
+   "offset": "0xb81f41",
+   "original": "00000000000000",
+   "patched": "f3a461a19c1ff8"
+  },
+  {
+   "offset": "0xb81f49",
+   "original": "0000000000",
+   "patched": "ff35941ff8"
+  },
+  {
+   "offset": "0xb81f4f",
+   "original": "00000000",
+   "patched": "689c1ff8"
+  },
+  {
+   "offset": "0xb81f54",
+   "original": "0000000000000000000000000000000000000000000000000000000000000000000000000000",
+   "patched": "ffd083c408c39090909090cd4c4f43414c2d414c45582d4155544f4c4f472d53455353494f4e"
+  },
+  {
+   "offset": "0xb81f7b",
+   "original": "0000000000",
+   "patched": "9090909090"
+  },
+  {
+   "offset": "0xb81fc0",
+   "original": "0000000000",
+   "patched": "833df81ff8"
+  },
+  {
+   "offset": "0xb81fc7",
+   "original": "00000000000000",
+   "patched": "751bff05f81ff8"
+  },
+  {
+   "offset": "0xb81fcf",
+   "original": "0000000000",
+   "patched": "8b0d841ff8"
+  },
+  {
+   "offset": "0xb81fd5",
+   "original": "0000000000",
+   "patched": "8b411c0590"
+  },
+  {
+   "offset": "0xb81fdd",
+   "original": "0000000000000000",
+   "patched": "50e8ed14d2ffc3c3"
+  }
+ ]
+}

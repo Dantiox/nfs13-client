@@ -1,0 +1,4 @@
+LIBRARY d3d11.dll
+EXPORTS
+    D3D11CreateDevice=proxy_D3D11CreateDevice @1
+    D3D11CreateDeviceAndSwapChain=proxy_D3D11CreateDeviceAndSwapChain @2
