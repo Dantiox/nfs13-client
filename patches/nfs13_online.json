@@ -1,10 +1,9 @@
 {
  "name": "nfs13",
- "description": "Transport configuration offsets enabling local loopback communication and standalone profile persistence for interoperability.",
+ "description": "Redirects the retail login flow to a private Blaze server and keeps the Autolog session alive.",
  "file": "NFS13.exe",
- "size": 13672448,
- "base_sha256": "9571280bb8868cd254e95442181d7bf1d6eafb2156a95d0c38337c7470762c0f",
- "patched_sha256": "d54e47f2528af93d136ec9cb4bf66a5f3910e4833222cc877046abc1636690e2",
+ "image_base": "0x00400000",
+ "oep_rva": "0x00ae279b",
  "patches": [
   {
    "offset": "0x200",
